@@ -2,4 +2,10 @@
 
 ## Installation
 
+Clone respository into a user specific destination folder.
+
+Softlink into .config
+`ln -s ~/<destination-folder>/neovim-lua/nvim ~/.config`
+
+
 
