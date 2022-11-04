@@ -4,8 +4,12 @@
 
 Clone respository into a user specific destination folder.
 
+# Install packer as package manager
+`git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+
 Softlink into .config
-`ln -s ~/<destination-folder>/neovim-lua/nvim ~/.config`
+`ln -s ~/<target-folder>/neovim-lua/nvim ~/.config`
 
 
 
