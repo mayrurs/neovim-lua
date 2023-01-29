@@ -54,3 +54,8 @@ nvim_lsp['pyright'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
+nvim_lsp['bashls'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+
