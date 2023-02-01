@@ -33,6 +33,11 @@ Prerequisite for the Python Modules:
 5) Install the required language servers 
 
 Depending on the system the node package manager needs to be installed first.
+
+6) (Optional) Install tmux as terminal multiplexer
+`sudo apt-get install tmux' 
+
+
 `sudo aps install npm`
 
 Install the in nvim/lua/plugins/nvim-lspconfig.lua defined language servers
