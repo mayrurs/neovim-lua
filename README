@@ -39,4 +39,15 @@ Install the in nvim/lua/plugins/nvim-lspconfig.lua defined language servers
 `sudo npm install -g bash-language-server pyright`
 
 6) (Optional) Install tmux as terminal multiplexer
+Standard configurations for tmux can be set within the .tmux.conf file in the users home directory.
 `sudo apt-get install tmux' 
+
+**Remark**: By default the newest versions of tmux overwright the <right-click> behaviour in terminal. 
+To copy text into the terminal use `<CTRL> + <SHIFT> + v`
+
+7) (Optional) Allow vim style navigation in terminal 
+The enable vim bindings in the terminal the .bachrc scripts needs to be modified. The re-mapping of <Esc> to "jk" is optional.
+```
+set -o vi
+bind '"jk":vi-movement-mode'
+```
