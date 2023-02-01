@@ -31,4 +31,8 @@ return require('packer').startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons' },
   }
 
+  -- Vim wiki support
+  use 'vimwiki/vimwiki'
+
+
 end)

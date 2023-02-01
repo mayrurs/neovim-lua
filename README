@@ -1,15 +1,32 @@
 # Neovim configuration files
 
-## Installation
+## Install Neovim 
 
-Clone respository into a user specific destination folder.
+To support all features the latest Neovim version is suggested to use.
 
-# Install packer as package manager
+**Ubuntu**: 
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim-lua
+```
+
+Prerequisite for the Python Modules:
+`sudo apt-get install python-dev python-pip python3-dev python3-pip`
+
+## Add configuration repository
+
+1) Clone respository into a user specific destination target-folder
+
+2) Softlink nvim folder into .config
+`ln -s ~/<destination-folder>/neovim-lua/nvim ~/.config`
+
+3) Install packer as package manager
 `git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
 
-Softlink into .config
-`ln -s ~/<target-folder>/neovim-lua/nvim ~/.config`
-
-
+4) Open neovim and install the packages as defined
+1. Clone packer
+2. Open nvim and run `:PackerInstall`
 

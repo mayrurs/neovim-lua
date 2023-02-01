@@ -7,6 +7,7 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 
+
 -- Colorscheme
 opt.termguicolors = true
 cmd [[colorscheme rose-pine]]
