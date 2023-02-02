@@ -9,7 +9,7 @@ To support all features the latest Neovim version is suggested to use.
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
-sudo apt-get install neovim-lua
+sudo apt-get install neovim
 ```
 
 Prerequisite for the Python Modules:
@@ -33,7 +33,7 @@ Prerequisite for the Python Modules:
 5) Install the required language servers 
 
 Depending on the system the node package manager needs to be installed first.
-`sudo aps install npm`
+`sudo apt install npm`
 
 Install the in nvim/lua/plugins/nvim-lspconfig.lua defined language servers
 `sudo npm install -g bash-language-server pyright`
