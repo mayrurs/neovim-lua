@@ -34,5 +34,8 @@ return require('packer').startup(function(use)
   -- Vim wiki support
   use 'vimwiki/vimwiki'
 
+  -- Automatic syncing of jupter files out of vim
+  use 'untitled-ai/jupyter_ascending.vim'
+
 
 end)

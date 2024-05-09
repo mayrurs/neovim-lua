@@ -7,3 +7,7 @@ map('i', 'jk', '<Esc>', {noremap = true})
 
 -- open terminal
 map('n', '<C-t>', ':10sp term://zsh<CR>', { noremap = true })
+
+-- Shorcuts for buffers navigation
+map('n', '[b', '<:bprevious<CR>', { noremap = true, silent = true });
+map('n', ']b', '<:bnext<CR>', { noremap = true, silent = true });

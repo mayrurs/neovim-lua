@@ -58,4 +58,19 @@ nvim_lsp['bashls'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
+nvim_lsp['html'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+nvim_lsp['cssls'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+nvim_lsp['tsserver'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+
+
+
 
